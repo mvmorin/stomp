@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -537,7 +538,7 @@ U 1 1 5EF06776
 P 9450 1600
 F 0 "J1" H 9450 2100 50  0000 C CNN
 F 1 "Conn_01x10" H 9450 1000 50  0000 C CNN
-F 2 "keyboard-parts:header_1x10_1.27mm" H 9450 1600 50  0001 C CNN
+F 2 "keyboard-parts:header_2x05_2.54mm" H 9450 1600 50  0001 C CNN
 F 3 "~" H 9450 1600 50  0001 C CNN
 	1    9450 1600
 	1    0    0    -1  
@@ -628,17 +629,6 @@ F 3 "~" H 10225 6050 50  0001 C CNN
 	1    10225 6050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J8
-U 1 1 5EF89583
-P 10725 6050
-F 0 "J8" H 10725 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 10725 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 10725 6050 50  0001 C CNN
-F 3 "~" H 10725 6050 50  0001 C CNN
-	1    10725 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7525 5850 7525 5950
 Connection ~ 7525 5950
@@ -705,17 +695,6 @@ Wire Wire Line
 Connection ~ 10025 6150
 Wire Wire Line
 	10025 6150 10025 6250
-Wire Wire Line
-	10525 5850 10525 5950
-Connection ~ 10525 5950
-Wire Wire Line
-	10525 5950 10525 6050
-Connection ~ 10525 6050
-Wire Wire Line
-	10525 6050 10525 6150
-Connection ~ 10525 6150
-Wire Wire Line
-	10525 6150 10525 6250
 Text Label 1175 3425 2    50   ~ 0
 Ext-C0-CB
 Text Label 1925 3425 2    50   ~ 0
