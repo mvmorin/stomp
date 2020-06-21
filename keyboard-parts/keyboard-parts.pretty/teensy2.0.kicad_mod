@@ -1,4 +1,4 @@
-(module teensy2.0 (layer F.Cu) (tedit 5EE13298)
+(module teensy2.0 (layer F.Cu) (tedit 5EEF651E)
   (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
