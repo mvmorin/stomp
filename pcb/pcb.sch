@@ -480,7 +480,7 @@ U 1 1 5EEDA3FC
 P 7500 1750
 F 0 "U1" H 6550 2700 60  0000 C CNN
 F 1 "teensy-2.0" H 8250 600 60  0000 C CNN
-F 2 "keyboard-parts:teensy2.0" H 7600 700 60  0001 C CNN
+F 2 "keyboard-parts:teensy2.0_dualside" H 7600 700 60  0001 C CNN
 F 3 "" H 7600 700 60  0001 C CNN
 	1    7500 1750
 	1    0    0    -1  
@@ -497,18 +497,6 @@ Text Label 6300 2000 2    50   ~ 0
 C1-CA
 Text Label 6300 2100 2    50   ~ 0
 C0-CB
-Text Label 8700 1600 0    50   ~ 0
-Ext-C5-C6
-Text Label 8700 1700 0    50   ~ 0
-Ext-C4-C7
-Text Label 8700 1800 0    50   ~ 0
-Ext-C3-C8
-Text Label 8700 1900 0    50   ~ 0
-Ext-C2-C9
-Text Label 8700 2000 0    50   ~ 0
-Ext-C1-CA
-Text Label 8700 2100 0    50   ~ 0
-Ext-C0-CB
 NoConn ~ 8700 1300
 NoConn ~ 8700 1200
 NoConn ~ 8700 1100
@@ -538,7 +526,7 @@ U 1 1 5EF06776
 P 9450 1600
 F 0 "J1" H 9450 2100 50  0000 C CNN
 F 1 "Conn_01x10" H 9450 1000 50  0000 C CNN
-F 2 "keyboard-parts:header_2x05_2.54mm" H 9450 1600 50  0001 C CNN
+F 2 "keyboard-parts:idc-header_2x05_2.54mm" H 9450 1600 50  0001 C CNN
 F 3 "~" H 9450 1600 50  0001 C CNN
 	1    9450 1600
 	1    0    0    -1  
@@ -695,112 +683,65 @@ Wire Wire Line
 Connection ~ 10025 6150
 Wire Wire Line
 	10025 6150 10025 6250
-Text Label 1175 3425 2    50   ~ 0
-Ext-C0-CB
-Text Label 1925 3425 2    50   ~ 0
-Ext-C1-CA
-Text Label 2675 3425 2    50   ~ 0
-Ext-C2-C9
-Text Label 3425 3425 2    50   ~ 0
-Ext-C3-C8
-Text Label 4175 3425 2    50   ~ 0
-Ext-C4-C7
-Text Label 4925 3425 2    50   ~ 0
-Ext-C5-C6
 Wire Wire Line
 	1175 2000 1175 2500
 Connection ~ 1175 2500
 Wire Wire Line
-	1175 2500 1175 3125
-Wire Wire Line
 	1925 1500 1925 2000
 Connection ~ 1925 2000
-Wire Wire Line
-	1925 2000 1925 3125
 Wire Wire Line
 	2675 1500 2675 2000
 Connection ~ 2675 2000
 Wire Wire Line
-	2675 2000 2675 3125
-Wire Wire Line
 	3425 2000 3425 2500
 Connection ~ 3425 2500
-Wire Wire Line
-	3425 2500 3425 3125
 Wire Wire Line
 	4175 2000 4175 2500
 Connection ~ 4175 2500
 Wire Wire Line
-	4175 2500 4175 3125
-Wire Wire Line
 	4925 2000 4925 2500
 Connection ~ 4925 2500
+$Comp
+L Connector_Generic:Conn_01x10 J8
+U 1 1 5EF5D373
+P 5900 3325
+F 0 "J8" H 5900 3825 50  0000 C CNN
+F 1 "Conn_01x10" H 5900 2725 50  0000 C CNN
+F 2 "keyboard-parts:idc-header_2x05_2.54mm" H 5900 3325 50  0001 C CNN
+F 3 "~" H 5900 3325 50  0001 C CNN
+	1    5900 3325
+	1    0    0    -1  
+$EndComp
+Text Label 5700 2925 2    50   ~ 0
+R0
+Text Label 5700 3025 2    50   ~ 0
+R1
+Text Label 5700 3125 2    50   ~ 0
+R2
+Text Label 5700 3225 2    50   ~ 0
+R3
 Wire Wire Line
-	4925 2500 4925 3125
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5EFDA2A9
-P 1175 3275
-F 0 "JP1" H 1175 3355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1175 3175 50  0000 C CNN
-F 2 "keyboard-parts:solder-jumper-2p-open" H 1175 3275 50  0001 C CNN
-F 3 "~" H 1175 3275 50  0001 C CNN
-	1    1175 3275
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5EFDBA8A
-P 1925 3275
-F 0 "JP2" H 1925 3355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1925 3175 50  0000 C CNN
-F 2 "keyboard-parts:solder-jumper-2p-open" H 1925 3275 50  0001 C CNN
-F 3 "~" H 1925 3275 50  0001 C CNN
-	1    1925 3275
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 5EFDC256
-P 2675 3275
-F 0 "JP3" H 2675 3355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 2675 3175 50  0000 C CNN
-F 2 "keyboard-parts:solder-jumper-2p-open" H 2675 3275 50  0001 C CNN
-F 3 "~" H 2675 3275 50  0001 C CNN
-	1    2675 3275
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 5EFDC8C1
-P 3425 3275
-F 0 "JP4" H 3425 3355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 3425 3175 50  0000 C CNN
-F 2 "keyboard-parts:solder-jumper-2p-open" H 3425 3275 50  0001 C CNN
-F 3 "~" H 3425 3275 50  0001 C CNN
-	1    3425 3275
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 5EFDCEED
-P 4175 3275
-F 0 "JP5" H 4175 3355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 4175 3175 50  0000 C CNN
-F 2 "keyboard-parts:solder-jumper-2p-open" H 4175 3275 50  0001 C CNN
-F 3 "~" H 4175 3275 50  0001 C CNN
-	1    4175 3275
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 5EFDD2B4
-P 4925 3275
-F 0 "JP6" H 4925 3355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 4925 3175 50  0000 C CNN
-F 2 "keyboard-parts:solder-jumper-2p-open" H 4925 3275 50  0001 C CNN
-F 3 "~" H 4925 3275 50  0001 C CNN
-	1    4925 3275
-	0    1    1    0   
-$EndComp
+	4925 2500 4925 3325
+Wire Wire Line
+	4175 2500 4175 3425
+Wire Wire Line
+	3425 2500 3425 3525
+Wire Wire Line
+	2675 2000 2675 3625
+Wire Wire Line
+	1925 2000 1925 3725
+Wire Wire Line
+	1175 2500 1175 3825
+Wire Wire Line
+	4925 3325 5700 3325
+Wire Wire Line
+	3425 3525 5700 3525
+Wire Wire Line
+	2675 3625 5700 3625
+Wire Wire Line
+	1925 3725 5700 3725
+Wire Wire Line
+	1175 3825 5700 3825
+Wire Wire Line
+	4175 3425 5700 3425
 $EndSCHEMATC
