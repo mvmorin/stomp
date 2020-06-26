@@ -551,138 +551,6 @@ Text Label 9250 1400 2    50   ~ 0
 R2
 Text Label 9250 1500 2    50   ~ 0
 R3
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 5EF80B00
-P 7725 6050
-F 0 "J2" H 7725 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 7725 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 7725 6050 50  0001 C CNN
-F 3 "~" H 7725 6050 50  0001 C CNN
-	1    7725 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J3
-U 1 1 5EF87223
-P 8225 6050
-F 0 "J3" H 8225 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 8225 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 8225 6050 50  0001 C CNN
-F 3 "~" H 8225 6050 50  0001 C CNN
-	1    8225 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J4
-U 1 1 5EF87CB1
-P 8725 6050
-F 0 "J4" H 8725 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 8725 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 8725 6050 50  0001 C CNN
-F 3 "~" H 8725 6050 50  0001 C CNN
-	1    8725 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J5
-U 1 1 5EF881B8
-P 9225 6050
-F 0 "J5" H 9225 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 9225 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 9225 6050 50  0001 C CNN
-F 3 "~" H 9225 6050 50  0001 C CNN
-	1    9225 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J6
-U 1 1 5EF8886B
-P 9725 6050
-F 0 "J6" H 9725 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 9725 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 9725 6050 50  0001 C CNN
-F 3 "~" H 9725 6050 50  0001 C CNN
-	1    9725 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J7
-U 1 1 5EF890D6
-P 10225 6050
-F 0 "J7" H 10225 6350 50  0000 C CNN
-F 1 "Conn_01x05" H 10225 5750 50  0000 C CNN
-F 2 "keyboard-parts:header_1x05_2.54mm" H 10225 6050 50  0001 C CNN
-F 3 "~" H 10225 6050 50  0001 C CNN
-	1    10225 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7525 5850 7525 5950
-Connection ~ 7525 5950
-Wire Wire Line
-	7525 5950 7525 6050
-Connection ~ 7525 6050
-Wire Wire Line
-	7525 6050 7525 6150
-Connection ~ 7525 6150
-Wire Wire Line
-	7525 6150 7525 6250
-Wire Wire Line
-	8025 5850 8025 5950
-Connection ~ 8025 5950
-Wire Wire Line
-	8025 5950 8025 6050
-Connection ~ 8025 6050
-Wire Wire Line
-	8025 6050 8025 6150
-Connection ~ 8025 6150
-Wire Wire Line
-	8025 6150 8025 6250
-Wire Wire Line
-	8525 5850 8525 5950
-Connection ~ 8525 5950
-Wire Wire Line
-	8525 5950 8525 6050
-Connection ~ 8525 6050
-Wire Wire Line
-	8525 6050 8525 6150
-Connection ~ 8525 6150
-Wire Wire Line
-	8525 6150 8525 6250
-Wire Wire Line
-	9025 5850 9025 5950
-Connection ~ 9025 5950
-Wire Wire Line
-	9025 5950 9025 6050
-Connection ~ 9025 6050
-Wire Wire Line
-	9025 6050 9025 6150
-Connection ~ 9025 6150
-Wire Wire Line
-	9025 6150 9025 6250
-Wire Wire Line
-	9525 5850 9525 5950
-Connection ~ 9525 5950
-Wire Wire Line
-	9525 5950 9525 6050
-Connection ~ 9525 6050
-Wire Wire Line
-	9525 6050 9525 6150
-Connection ~ 9525 6150
-Wire Wire Line
-	9525 6150 9525 6250
-Wire Wire Line
-	10025 5850 10025 5950
-Connection ~ 10025 5950
-Wire Wire Line
-	10025 5950 10025 6050
-Connection ~ 10025 6050
-Wire Wire Line
-	10025 6050 10025 6150
-Connection ~ 10025 6150
-Wire Wire Line
-	10025 6150 10025 6250
 Wire Wire Line
 	1175 2000 1175 2500
 Connection ~ 1175 2500
@@ -744,4 +612,154 @@ Wire Wire Line
 	1175 3825 5700 3825
 Wire Wire Line
 	4175 3425 5700 3425
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5EF6DF15
+P 7450 5950
+F 0 "J2" H 7450 6250 50  0000 C CNN
+F 1 "Conn_01x06" H 7450 5550 50  0000 C CNN
+F 2 "keyboard-parts:header_1x06_2.54mm" H 7450 5950 50  0001 C CNN
+F 3 "~" H 7450 5950 50  0001 C CNN
+	1    7450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5EF726F1
+P 7950 5950
+F 0 "J3" H 7950 6250 50  0000 C CNN
+F 1 "Conn_01x06" H 7950 5550 50  0000 C CNN
+F 2 "keyboard-parts:header_1x06_2.54mm" H 7950 5950 50  0001 C CNN
+F 3 "~" H 7950 5950 50  0001 C CNN
+	1    7950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5EF72FD2
+P 8450 5950
+F 0 "J4" H 8450 6250 50  0000 C CNN
+F 1 "Conn_01x06" H 8450 5550 50  0000 C CNN
+F 2 "keyboard-parts:header_1x06_2.54mm" H 8450 5950 50  0001 C CNN
+F 3 "~" H 8450 5950 50  0001 C CNN
+	1    8450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5EF735AD
+P 8950 5950
+F 0 "J5" H 8950 6250 50  0000 C CNN
+F 1 "Conn_01x06" H 8950 5550 50  0000 C CNN
+F 2 "keyboard-parts:header_1x06_2.54mm" H 8950 5950 50  0001 C CNN
+F 3 "~" H 8950 5950 50  0001 C CNN
+	1    8950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5EF73CAF
+P 9450 5950
+F 0 "J6" H 9450 6250 50  0000 C CNN
+F 1 "Conn_01x06" H 9450 5550 50  0000 C CNN
+F 2 "keyboard-parts:header_1x06_2.54mm" H 9450 5950 50  0001 C CNN
+F 3 "~" H 9450 5950 50  0001 C CNN
+	1    9450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J7
+U 1 1 5EF744AF
+P 9950 5950
+F 0 "J7" H 9950 6250 50  0000 C CNN
+F 1 "Conn_01x06" H 9950 5550 50  0000 C CNN
+F 2 "keyboard-parts:header_1x06_2.54mm" H 9950 5950 50  0001 C CNN
+F 3 "~" H 9950 5950 50  0001 C CNN
+	1    9950 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5750 7250 5850
+Connection ~ 7250 5850
+Wire Wire Line
+	7250 5850 7250 5950
+Connection ~ 7250 5950
+Wire Wire Line
+	7250 5950 7250 6050
+Connection ~ 7250 6050
+Wire Wire Line
+	7250 6050 7250 6150
+Connection ~ 7250 6150
+Wire Wire Line
+	7250 6150 7250 6250
+Wire Wire Line
+	7750 5750 7750 5850
+Connection ~ 7750 5850
+Wire Wire Line
+	7750 5850 7750 5950
+Connection ~ 7750 5950
+Wire Wire Line
+	7750 5950 7750 6050
+Connection ~ 7750 6050
+Wire Wire Line
+	7750 6050 7750 6150
+Connection ~ 7750 6150
+Wire Wire Line
+	7750 6150 7750 6250
+Wire Wire Line
+	8250 5750 8250 5850
+Connection ~ 8250 5850
+Wire Wire Line
+	8250 5850 8250 5950
+Connection ~ 8250 5950
+Wire Wire Line
+	8250 5950 8250 6050
+Connection ~ 8250 6050
+Wire Wire Line
+	8250 6050 8250 6150
+Connection ~ 8250 6150
+Wire Wire Line
+	8250 6150 8250 6250
+Wire Wire Line
+	8750 5750 8750 5850
+Connection ~ 8750 5850
+Wire Wire Line
+	8750 5850 8750 5950
+Connection ~ 8750 5950
+Wire Wire Line
+	8750 5950 8750 6050
+Connection ~ 8750 6050
+Wire Wire Line
+	8750 6050 8750 6150
+Connection ~ 8750 6150
+Wire Wire Line
+	8750 6150 8750 6250
+Wire Wire Line
+	9250 5750 9250 5850
+Connection ~ 9250 5850
+Wire Wire Line
+	9250 5850 9250 5950
+Connection ~ 9250 5950
+Wire Wire Line
+	9250 5950 9250 6050
+Connection ~ 9250 6050
+Wire Wire Line
+	9250 6050 9250 6150
+Connection ~ 9250 6150
+Wire Wire Line
+	9250 6150 9250 6250
+Wire Wire Line
+	9750 5750 9750 5850
+Connection ~ 9750 5850
+Wire Wire Line
+	9750 5850 9750 5950
+Connection ~ 9750 5950
+Wire Wire Line
+	9750 5950 9750 6050
+Connection ~ 9750 6050
+Wire Wire Line
+	9750 6050 9750 6150
+Connection ~ 9750 6150
+Wire Wire Line
+	9750 6150 9750 6250
 $EndSCHEMATC
