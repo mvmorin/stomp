@@ -8,6 +8,11 @@ Split, staggered column 40% keyboard. Designed in KiCad with symbols and footpri
 * Full PCB design, including backplate.
 * MX and Alps plates.
 
+# Untested Boards
+* PCB
+* MX Plate
+* Alps Plate
+
 # Licenses
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
