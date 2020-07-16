@@ -503,7 +503,7 @@ NoConn ~ 8700 1100
 NoConn ~ 8700 1000
 NoConn ~ 6300 1300
 NoConn ~ 6300 1200
-NoConn ~ 6300 1100
+NoConn ~ 8700 2100
 NoConn ~ 6300 1000
 NoConn ~ 7400 700 
 NoConn ~ 7600 700 
@@ -531,8 +531,6 @@ F 3 "~" H 9450 1600 50  0001 C CNN
 	1    9450 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2100 8700 2100
 Wire Wire Line
 	9250 2000 8700 2000
 Wire Wire Line
@@ -762,4 +760,14 @@ Wire Wire Line
 Connection ~ 9750 6150
 Wire Wire Line
 	9750 6150 9750 6250
+Wire Wire Line
+	9250 2100 9000 2100
+Wire Wire Line
+	9000 2100 9000 625 
+Wire Wire Line
+	9000 625  6125 625 
+Wire Wire Line
+	6125 625  6125 1100
+Wire Wire Line
+	6125 1100 6300 1100
 $EndSCHEMATC
