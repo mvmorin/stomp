@@ -477,77 +477,67 @@ Wire Wire Line
 $Comp
 L keyboard-parts:teensy-2.0 U1
 U 1 1 5EEDA3FC
-P 7500 1750
-F 0 "U1" H 6550 2700 60  0000 C CNN
-F 1 "teensy-2.0" H 8250 600 60  0000 C CNN
-F 2 "keyboard-parts:teensy2.0_dualside" H 7600 700 60  0001 C CNN
-F 3 "" H 7600 700 60  0001 C CNN
-	1    7500 1750
+P 7225 1625
+F 0 "U1" H 6275 2575 60  0000 C CNN
+F 1 "teensy-2.0" H 7975 475 60  0000 C CNN
+F 2 "keyboard-parts:teensy2.0_dualside" H 7325 575 60  0001 C CNN
+F 3 "" H 7325 575 60  0001 C CNN
+	1    7225 1625
 	1    0    0    -1  
 $EndComp
-Text Label 6300 1600 2    50   ~ 0
+Text Label 6025 1475 2    50   ~ 0
 C5-C6
-Text Label 6300 1700 2    50   ~ 0
+Text Label 6025 1575 2    50   ~ 0
 C4-C7
-Text Label 6300 1800 2    50   ~ 0
+Text Label 6025 1675 2    50   ~ 0
 C3-C8
-Text Label 6300 1900 2    50   ~ 0
+Text Label 6025 1775 2    50   ~ 0
 C2-C9
-Text Label 6300 2000 2    50   ~ 0
+Text Label 6025 1875 2    50   ~ 0
 C1-CA
-Text Label 6300 2100 2    50   ~ 0
+Text Label 6025 1975 2    50   ~ 0
 C0-CB
-NoConn ~ 8700 1300
-NoConn ~ 8700 1200
-NoConn ~ 8700 1100
-NoConn ~ 8700 1000
-NoConn ~ 6300 1300
-NoConn ~ 6300 1200
-NoConn ~ 8700 2100
-NoConn ~ 6300 1000
-NoConn ~ 7400 700 
-NoConn ~ 7600 700 
-NoConn ~ 7300 3000
-NoConn ~ 7400 3000
-NoConn ~ 7500 3000
-NoConn ~ 7600 3000
-NoConn ~ 7700 3000
-Text Label 6300 1500 2    50   ~ 0
+NoConn ~ 8425 1175
+NoConn ~ 8425 1075
+NoConn ~ 8425 975 
+NoConn ~ 8425 875 
+NoConn ~ 6025 1175
+NoConn ~ 6025 1075
+NoConn ~ 8425 1975
+NoConn ~ 6025 875 
+NoConn ~ 7125 575 
+NoConn ~ 7325 575 
+NoConn ~ 7025 2875
+NoConn ~ 7125 2875
+NoConn ~ 7225 2875
+NoConn ~ 7325 2875
+NoConn ~ 7425 2875
+Text Label 6025 1375 2    50   ~ 0
 R3
-Text Label 6300 1400 2    50   ~ 0
+Text Label 6025 1275 2    50   ~ 0
 R2
-Text Label 8700 1400 0    50   ~ 0
+Text Label 6025 975  2    50   ~ 0
 R0
-Text Label 8700 1500 0    50   ~ 0
+Text Label 8425 1875 0    50   ~ 0
 R1
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 5EF06776
-P 9450 1600
-F 0 "J1" H 9450 2100 50  0000 C CNN
-F 1 "Conn_01x10" H 9450 1000 50  0000 C CNN
-F 2 "keyboard-parts:idc-header_2x05_2.54mm" H 9450 1600 50  0001 C CNN
-F 3 "~" H 9450 1600 50  0001 C CNN
-	1    9450 1600
+P 10375 2900
+F 0 "J1" H 10375 3400 50  0000 C CNN
+F 1 "Conn_01x10" H 10375 2300 50  0000 C CNN
+F 2 "keyboard-parts:idc-header-dualside_2x05_2.54mm" H 10375 2900 50  0001 C CNN
+F 3 "~" H 10375 2900 50  0001 C CNN
+	1    10375 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9250 2000 8700 2000
-Wire Wire Line
-	9250 1900 8700 1900
-Wire Wire Line
-	9250 1800 8700 1800
-Wire Wire Line
-	9250 1700 8700 1700
-Wire Wire Line
-	9250 1600 8700 1600
-Text Label 9250 1200 2    50   ~ 0
+Text Label 9475 1950 2    50   ~ 0
 R0
-Text Label 9250 1300 2    50   ~ 0
+Text Label 9475 2050 2    50   ~ 0
 R1
-Text Label 9250 1400 2    50   ~ 0
+Text Label 9475 2150 2    50   ~ 0
 R2
-Text Label 9250 1500 2    50   ~ 0
+Text Label 9475 2250 2    50   ~ 0
 R3
 Wire Wire Line
 	1175 2000 1175 2500
@@ -567,56 +557,21 @@ Connection ~ 4175 2500
 Wire Wire Line
 	4925 2000 4925 2500
 Connection ~ 4925 2500
-$Comp
-L Connector_Generic:Conn_01x10 J8
-U 1 1 5EF5D373
-P 5900 3325
-F 0 "J8" H 5900 3825 50  0000 C CNN
-F 1 "Conn_01x10" H 5900 2725 50  0000 C CNN
-F 2 "keyboard-parts:idc-header_2x05_2.54mm" H 5900 3325 50  0001 C CNN
-F 3 "~" H 5900 3325 50  0001 C CNN
-	1    5900 3325
-	1    0    0    -1  
-$EndComp
-Text Label 5700 2925 2    50   ~ 0
+Text Label 9475 3050 2    50   ~ 0
 R0
-Text Label 5700 3025 2    50   ~ 0
+Text Label 9475 3150 2    50   ~ 0
 R1
-Text Label 5700 3125 2    50   ~ 0
+Text Label 9475 3250 2    50   ~ 0
 R2
-Text Label 5700 3225 2    50   ~ 0
+Text Label 9475 3350 2    50   ~ 0
 R3
-Wire Wire Line
-	4925 2500 4925 3325
-Wire Wire Line
-	4175 2500 4175 3425
-Wire Wire Line
-	3425 2500 3425 3525
-Wire Wire Line
-	2675 2000 2675 3625
-Wire Wire Line
-	1925 2000 1925 3725
-Wire Wire Line
-	1175 2500 1175 3825
-Wire Wire Line
-	4925 3325 5700 3325
-Wire Wire Line
-	3425 3525 5700 3525
-Wire Wire Line
-	2675 3625 5700 3625
-Wire Wire Line
-	1925 3725 5700 3725
-Wire Wire Line
-	1175 3825 5700 3825
-Wire Wire Line
-	4175 3425 5700 3425
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 5EF6DF15
 P 7450 5950
 F 0 "J2" H 7450 6250 50  0000 C CNN
 F 1 "Conn_01x06" H 7450 5550 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 7450 5950 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 7450 5950 50  0001 C CNN
 F 3 "~" H 7450 5950 50  0001 C CNN
 	1    7450 5950
 	1    0    0    -1  
@@ -627,7 +582,7 @@ U 1 1 5EF726F1
 P 7950 5950
 F 0 "J3" H 7950 6250 50  0000 C CNN
 F 1 "Conn_01x06" H 7950 5550 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 7950 5950 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 7950 5950 50  0001 C CNN
 F 3 "~" H 7950 5950 50  0001 C CNN
 	1    7950 5950
 	1    0    0    -1  
@@ -638,7 +593,7 @@ U 1 1 5EF72FD2
 P 8450 5950
 F 0 "J4" H 8450 6250 50  0000 C CNN
 F 1 "Conn_01x06" H 8450 5550 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 8450 5950 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 8450 5950 50  0001 C CNN
 F 3 "~" H 8450 5950 50  0001 C CNN
 	1    8450 5950
 	1    0    0    -1  
@@ -649,7 +604,7 @@ U 1 1 5EF735AD
 P 8950 5950
 F 0 "J5" H 8950 6250 50  0000 C CNN
 F 1 "Conn_01x06" H 8950 5550 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 8950 5950 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 8950 5950 50  0001 C CNN
 F 3 "~" H 8950 5950 50  0001 C CNN
 	1    8950 5950
 	1    0    0    -1  
@@ -660,7 +615,7 @@ U 1 1 5EF73CAF
 P 9450 5950
 F 0 "J6" H 9450 6250 50  0000 C CNN
 F 1 "Conn_01x06" H 9450 5550 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 9450 5950 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 9450 5950 50  0001 C CNN
 F 3 "~" H 9450 5950 50  0001 C CNN
 	1    9450 5950
 	1    0    0    -1  
@@ -671,7 +626,7 @@ U 1 1 5EF744AF
 P 9950 5950
 F 0 "J7" H 9950 6250 50  0000 C CNN
 F 1 "Conn_01x06" H 9950 5550 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 9950 5950 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 9950 5950 50  0001 C CNN
 F 3 "~" H 9950 5950 50  0001 C CNN
 	1    9950 5950
 	1    0    0    -1  
@@ -760,14 +715,150 @@ Wire Wire Line
 Connection ~ 9750 6150
 Wire Wire Line
 	9750 6150 9750 6250
+$Comp
+L keyboard-parts:dualside-idc-jumpers JP1
+U 1 1 5F53DA9D
+P 9825 2950
+F 0 "JP1" H 9825 4050 50  0000 C CNN
+F 1 "dualside-idc-jumpers" H 9825 1850 50  0000 C CNN
+F 2 "keyboard-parts:dualside-idc-jumpers" H 9775 2950 50  0001 C CNN
+F 3 "" H 9775 2950 50  0001 C CNN
+	1    9825 2950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9250 2100 9000 2100
+	9025 2350 9475 2350
 Wire Wire Line
-	9000 2100 9000 625 
+	9475 2450 9050 2450
 Wire Wire Line
-	9000 625  6125 625 
+	9075 2550 9475 2550
 Wire Wire Line
-	6125 625  6125 1100
+	9475 2650 9100 2650
 Wire Wire Line
-	6125 1100 6300 1100
+	9125 2750 9475 2750
+Wire Wire Line
+	9150 2850 9475 2850
+Wire Wire Line
+	8425 1275 9150 1275
+Wire Wire Line
+	9125 1375 8425 1375
+Wire Wire Line
+	9100 1475 8425 1475
+Wire Wire Line
+	9075 1575 8425 1575
+Wire Wire Line
+	9050 1675 8425 1675
+Wire Wire Line
+	9025 1775 8425 1775
+Wire Wire Line
+	9150 1275 9150 2850
+Wire Wire Line
+	9125 2750 9125 1375
+Wire Wire Line
+	9100 1475 9100 2650
+Wire Wire Line
+	9075 1575 9075 2550
+Wire Wire Line
+	9050 2450 9050 1675
+Wire Wire Line
+	9025 1775 9025 2350
+Wire Wire Line
+	9500 3950 9475 3950
+Wire Wire Line
+	1175 2500 1175 3950
+Connection ~ 9475 3950
+Wire Wire Line
+	9475 3950 1175 3950
+Wire Wire Line
+	1925 2000 1925 3850
+Wire Wire Line
+	1925 3850 9475 3850
+Wire Wire Line
+	2675 2000 2675 3750
+Wire Wire Line
+	3425 2500 3425 3650
+Wire Wire Line
+	3425 3650 9475 3650
+Wire Wire Line
+	2675 3750 9475 3750
+Wire Wire Line
+	4175 2500 4175 3550
+Wire Wire Line
+	4175 3550 9475 3550
+Wire Wire Line
+	4925 2500 4925 3450
+Wire Wire Line
+	4925 3450 9475 3450
+$Comp
+L power:GND #PWR0101
+U 1 1 5F51A209
+P 7250 6250
+F 0 "#PWR0101" H 7250 6000 50  0001 C CNN
+F 1 "GND" H 7250 6100 50  0000 C CNN
+F 2 "" H 7250 6250 50  0001 C CNN
+F 3 "" H 7250 6250 50  0001 C CNN
+	1    7250 6250
+	0    1    1    0   
+$EndComp
+Connection ~ 7250 6250
+$Comp
+L power:GND #PWR0102
+U 1 1 5F51AD17
+P 7750 6250
+F 0 "#PWR0102" H 7750 6000 50  0001 C CNN
+F 1 "GND" H 7750 6100 50  0000 C CNN
+F 2 "" H 7750 6250 50  0001 C CNN
+F 3 "" H 7750 6250 50  0001 C CNN
+	1    7750 6250
+	0    1    1    0   
+$EndComp
+Connection ~ 7750 6250
+$Comp
+L power:GND #PWR0103
+U 1 1 5F51BE79
+P 8250 6250
+F 0 "#PWR0103" H 8250 6000 50  0001 C CNN
+F 1 "GND" H 8250 6100 50  0000 C CNN
+F 2 "" H 8250 6250 50  0001 C CNN
+F 3 "" H 8250 6250 50  0001 C CNN
+	1    8250 6250
+	0    1    1    0   
+$EndComp
+Connection ~ 8250 6250
+$Comp
+L power:GND #PWR0104
+U 1 1 5F51D365
+P 8750 6250
+F 0 "#PWR0104" H 8750 6000 50  0001 C CNN
+F 1 "GND" H 8750 6100 50  0000 C CNN
+F 2 "" H 8750 6250 50  0001 C CNN
+F 3 "" H 8750 6250 50  0001 C CNN
+	1    8750 6250
+	0    1    1    0   
+$EndComp
+Connection ~ 8750 6250
+$Comp
+L power:GND #PWR0105
+U 1 1 5F51E85D
+P 9250 6250
+F 0 "#PWR0105" H 9250 6000 50  0001 C CNN
+F 1 "GND" H 9250 6100 50  0000 C CNN
+F 2 "" H 9250 6250 50  0001 C CNN
+F 3 "" H 9250 6250 50  0001 C CNN
+	1    9250 6250
+	0    1    1    0   
+$EndComp
+Connection ~ 9250 6250
+$Comp
+L power:GND #PWR0106
+U 1 1 5F51F8E4
+P 9750 6250
+F 0 "#PWR0106" H 9750 6000 50  0001 C CNN
+F 1 "GND" H 9750 6100 50  0000 C CNN
+F 2 "" H 9750 6250 50  0001 C CNN
+F 3 "" H 9750 6250 50  0001 C CNN
+	1    9750 6250
+	0    1    1    0   
+$EndComp
+Connection ~ 9750 6250
 $EndSCHEMATC

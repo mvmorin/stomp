@@ -1,4 +1,4 @@
-(module header_1x06_2.54mm (layer F.Cu) (tedit 5EF783BC)
+(module header_1x06_2.54mm (layer F.Cu) (tedit 5F514A4A)
   (fp_text reference REF** (at 0 -2.33) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

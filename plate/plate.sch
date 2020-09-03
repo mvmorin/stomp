@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:plate-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5EF69161
 P 1200 1200
 F 0 "J1" H 1200 1500 50  0000 C CNN
 F 1 "Conn_01x06" H 1200 800 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 1200 1200 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 1200 1200 50  0001 C CNN
 F 3 "~" H 1200 1200 50  0001 C CNN
 	1    1200 1200
 	1    0    0    -1  
@@ -30,7 +31,7 @@ U 1 1 5EF6B0C9
 P 1700 1200
 F 0 "J2" H 1700 1500 50  0000 C CNN
 F 1 "Conn_01x06" H 1700 800 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 1700 1200 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 1700 1200 50  0001 C CNN
 F 3 "~" H 1700 1200 50  0001 C CNN
 	1    1700 1200
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5EF6B852
 P 2200 1200
 F 0 "J3" H 2200 1500 50  0000 C CNN
 F 1 "Conn_01x06" H 2200 800 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 2200 1200 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 2200 1200 50  0001 C CNN
 F 3 "~" H 2200 1200 50  0001 C CNN
 	1    2200 1200
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5EF6BD71
 P 2700 1200
 F 0 "J4" H 2700 1500 50  0000 C CNN
 F 1 "Conn_01x06" H 2700 800 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 2700 1200 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 2700 1200 50  0001 C CNN
 F 3 "~" H 2700 1200 50  0001 C CNN
 	1    2700 1200
 	1    0    0    -1  
@@ -63,7 +64,7 @@ U 1 1 5EF6C25E
 P 3200 1200
 F 0 "J5" H 3200 1500 50  0000 C CNN
 F 1 "Conn_01x06" H 3200 800 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 3200 1200 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 3200 1200 50  0001 C CNN
 F 3 "~" H 3200 1200 50  0001 C CNN
 	1    3200 1200
 	1    0    0    -1  
@@ -74,7 +75,7 @@ U 1 1 5EF6C61D
 P 3700 1200
 F 0 "J6" H 3700 1500 50  0000 C CNN
 F 1 "Conn_01x06" H 3700 800 50  0000 C CNN
-F 2 "keyboard-parts:header_1x06_2.54mm" H 3700 1200 50  0001 C CNN
+F 2 "keyboard-parts:header_sym_1x06_2.54mm" H 3700 1200 50  0001 C CNN
 F 3 "~" H 3700 1200 50  0001 C CNN
 	1    3700 1200
 	1    0    0    -1  
