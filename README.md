@@ -9,8 +9,6 @@ Split, staggered column 40% keyboard. Designed in KiCad with symbols and footpri
 * MX and Alps plates.
 
 # Untested Boards
-* PCB
-* MX Plate
 * Alps Plate
 
 # Licenses
