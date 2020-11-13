@@ -5,7 +5,7 @@ Split, staggered column 40% keyboard. Designed in KiCad with symbols and footpri
 * Low profile and case-less.
 * 4x12 layout, minus 4 on bottom row.
 * Single Teensy 2.0 or Pro-Micro needed.
-* Full PCB design, including backplate.
+* Full FR4 (PCB) design, including backplate.
 * MX and Alps plates.
 
 # Untested Boards
