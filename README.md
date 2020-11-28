@@ -19,7 +19,6 @@ The main benefit of these footprints is the extra information of the keyboard ba
 # Untested Footprints
 Footprint features that not have been test printed/manufactured:
 * The new 0.1mm larger Alps switch and MX stabilizer cutouts.
-* The double sided switch footprints.
 
 # Licenses
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
