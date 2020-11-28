@@ -13,12 +13,12 @@ The main focus is the ease of PCB and plate creation. The switch footprints and 
 The main benefit of these footprints is the extra information of the keyboard backplate they contain. To easily export these features to the backplate KiCad project, the *eco1*, *eco2*, and *cmts* layers of all other footprints used need to either be empty or contain the corresponding information.
 
 # Known Issues
-* ~~Alps cutouts are a little tight. About 60% of the cutouts in the test print needed filing.~~
-* ~~Cherry stabilizer cutout are tight but usable.~~
+* ~~MX stabilizer cutout are tight but fully usable.~~
+* ~~Mounting pin holes for 5-pin MX switches are tight but fully usable.~~
 
 # Untested Footprints
 Footprint features that not have been test printed/manufactured:
-* The new 0.1mm larger Alps switch and MX stabilizer cutouts.
+* The new 0.1mm larger MX stabilizer cutouts and mounting pin holes for 5-pn MX switches.
 
 # Licenses
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
